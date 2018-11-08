@@ -11,7 +11,7 @@ apt_package %w(bind9 bind9utils bind9-doc) do
   action :install
 end
 
-# Resource: Configures bind9.service for IPv4
+# Resource: Configures bind9.service for IPv4 and reloads the daemon
 #
 # Expected inputs: None
 #
