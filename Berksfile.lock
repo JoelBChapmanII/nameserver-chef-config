@@ -1,0 +1,7 @@
+DEPENDENCIES
+  nameserver-chef-config
+    path: .
+    metadata: true
+
+GRAPH
+  nameserver-chef-config (0.1.0)
